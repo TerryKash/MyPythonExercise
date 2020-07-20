@@ -7,7 +7,7 @@ def speak(a, str):
     speak.Speak(str)
 
 if __name__ == '__main__':
-    r = requests.get("http://newsapi.org/v2/top-headlines?country=in&apiKey=8a0c19a2bd4e40aa8b719a40166a9e1a")
+    r = requests.get("http://newsapi.org/v2/top-headlines?country=in&apiKey=***")
     r = r.json()
     # print(r)
     i = 0
